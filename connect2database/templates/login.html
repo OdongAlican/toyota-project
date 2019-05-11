@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Login Page</title>
+  </head>
+  <style>
+    form {
+      padding-top: 40px;
+    }
+
+    
+  </style>
+  <body>
+    <form action="/user_create" method="POST">
+      <div class="loginForm">
+        <div>
+          <label>First Name</label>
+        </div>
+        <div>
+          <input type="text" name="firstName" />
+        </div>
+        <div>
+          <label>Last Name</label>
+        </div>
+        <div>
+          <input type="text" name="lastName" />
+        </div>
+        <div>
+          <label>Password</label>
+        </div>
+        <div>
+          <input type="text" name="password" />
+        </div>
+      </div>
+      <div class="submit">
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>

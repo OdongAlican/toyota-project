@@ -1,0 +1,346 @@
+body{
+    margin: 0px;
+    padding-top: 0px;
+}
+
+.container{
+    height:680px;
+    background-color: #F3F4F6;
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    height: 180px;
+    background-color: #16224F;
+    display: flex;  
+}
+
+nav .right .write {
+    height: 540px;
+    width: 600px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+nav .right .logo{
+    height: 100px;
+    width: 600px;
+}
+
+nav .right .logo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+nav .right .write .write_label{
+    height:100px;
+    width: 100%;
+    background-color: #EFEFEF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+
+}
+
+nav .right .write .upper{
+    height: 50px;
+    width: 100%;
+    background-color: #FFFFFF;  
+    display: flex;
+}
+
+nav .right .write .write_label .image{
+    width: 60px;
+    height: 60px;
+    background-color: #16224F;
+    margin-left: 34px;
+    margin-top: 20px;
+}
+
+nav .right .write .write_label .image_label{
+    width: 500px;
+    height: 60px;
+    margin-top: 24px;
+    /* background-color: pink; */
+    margin-left: 10px;
+}
+
+nav .right .write .write_label .image_label label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+nav .right .write .write_label .image img{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+nav .right .write .upper input{
+    width: 240px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 34px;
+    background-color: #F3F3F5;
+    border: none;
+}
+
+nav .right .write .optional_label{
+    width:566px;
+    background-color: #FFFFFF;
+    height: 30px;
+    padding-left: 34px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+nav .right .write .project_details textarea{
+    width: 512px;
+    height: 100px;
+    background-color: #F3F3F5;
+    margin-left: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    border: none;
+}
+
+nav .right .write .drop_it{
+    height: 60px;
+    background-color: #F3F3F5;
+    width: 514px;
+    margin-left: 34px;
+    margin-top: 10px;
+    padding-top: 8px;
+    display: flex;
+}
+
+nav .right .write .drop_it .file{
+    background-color: #FFFFFF;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+}
+
+nav .right .write .drop_it .drop_it_label{
+    width: 400px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+}
+
+nav .right .write .drop_it img{
+    height: 40px;
+    width: 30px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+nav .right .write .lower{
+    height: 80px;
+    width: 100%;
+    background-color: #FFFFFF;  
+    display: flex;
+}
+
+nav .right .write .lower input{
+    width: 240px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 34px;
+    background-color: #F3F3F5;
+    border: none;
+}
+
+.left .contact_me{
+    width: 400px;
+    height: 60px;
+    margin-left: 150px;
+    padding-top: 20px;
+}
+
+.left .contact_me label{
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.left .looking{
+    width: 400px;
+    height: 60px;
+    margin-left: 150px;
+}
+
+.left .looking label{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.left .social_media{
+    width: 400px;
+    height: 30px;
+    margin-left: 150px;
+    display: flex;
+    margin-top: 5px;
+}
+
+.left .social_media img{
+    widows: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+
+.btn input{
+    width: 512px;
+    height: 25px;
+    background-color: #1C2758;
+    margin-left: 34px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.last {
+    margin-top: 10px;
+    margin-left: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    color: black;
+}
+
+.lower .next_step{
+    width: 300px;
+    height: 70px;
+    margin-left: 150px;
+}
+
+.lower .next_step .label_next{
+    margin-top: 70px;
+}
+
+.lower .next_step .label_next label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    color:black;
+}
+
+.lower .step_closer{
+    width: 300px;
+    height: 70px;
+    margin-left: 150px;
+}
+
+.lower .step_closer .closer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    color:black;
+}
+
+.lower .project_steps{
+    width: 300px;
+    height: 280px;
+    margin-left: 150px;
+    display: flex;
+}
+
+.lower .project_steps .vertical_images {
+    width: 40px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lower .project_steps .vertical_images .image button{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border-color: #EA5181;
+    margin-left: 10px;
+    border-style: double;
+    background-color: white;
+}
+
+.lower .project_steps .vertical_images .image .btn1{
+    width: 15px;
+    height: 69px;
+}
+
+.lower .project_steps .vertical_images .image .btn2{
+    width: 15px;
+    height: 69px;
+}
+
+.lower .project_steps .vertical_images .image .btn3{
+    width: 15px;
+    height: 69px;
+}
+
+.lower .project_steps .vertical_images .image .btn4{
+    width: 15px;
+    height: 69px;
+}
+
+.lower .project_steps .vertical_images .image .innnerbtn{
+    height: 258px;
+    width: 1px;
+    margin-left: 19.2px;
+    background-color:grey;
+}
+
+.lower .project_steps .content{
+    width: 259px;
+    height: 279px;
+}
+
+.lower .project_steps .content .proposal{
+    widows: 258px;
+    margin-bottom: 3px;
+    height: 68px;
+    background-color: #1C2758;
+    border-radius: 5px;
+}
+
+.lower .project_steps .content .discuss{
+    widows: 258px;
+    margin-bottom: 3px;
+    height: 68px;
+    border-radius: 5px;
+    background-color: #1C2758;
+}
+
+.lower .project_steps .content .building{
+    widows: 258px;
+    margin-bottom: 3px;
+    height: 68px;
+    border-radius: 5px;
+    background-color: #1C2758;
+}
+
+.lower .project_steps .content .comlete{
+    widows: 258px;
+    height: 68px;
+    border-radius: 5px;
+    background-color: #1C2758;
+    margin-bottom: 3px;
+}
+
+.lower .project_steps .content label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    color: white;
+}

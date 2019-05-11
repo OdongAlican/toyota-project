@@ -1,0 +1,354 @@
+.container{
+    margin-top: 0;
+    padding-top: 2px;
+    height: 810px;
+    width: 100%;
+    background-color:#F3F4F6;
+    padding-bottom: 0px;
+}
+
+.container .top{
+    padding-bottom: 20px;
+    background-image: linear-gradient(to bottom,black,#16224F ,#1C2758) ;
+    width: 95%;
+    height: 42%;
+    padding-left: 10px;
+    margin-left: 28px;
+    padding-top: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#000000 ;
+}
+
+.container .top .photo{
+    height: 99%;
+    width: 50%;
+    padding-top: 10px;
+    position: relative;
+    float: left;
+}
+
+.container .top .photo .photo_inner{
+    padding-left: 56.5%;
+    width: 50%;
+}
+
+.container .top .introduction{
+    height: 99%;
+    width: 39.5%;
+    padding-top: 2px;
+    position: relative;
+    float: right;
+}
+
+.container .top .menu{
+    width: 5%;
+}
+
+.container .top .introduction .introduction_inner{
+    padding-top: 17%;
+    width: 70%;
+}
+
+.container .top .introduction .introduction_inner .introduction_labels{
+    color: white;
+}
+
+.container .look{
+    height: 6.5%;
+    width: 35%;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-left: 470px;
+    /* background-color:#000000; */
+}
+
+.container .look .look_service{
+    width: 370px;
+    height: 90%;
+    background-color: #1C2758;
+    border-radius: 10px;
+    padding-left: 80px;
+    padding-top: 5px;
+}
+
+.container .middle{
+    height: 18%;
+    width: 100%;
+    padding-bottom: 0%;
+}
+
+.container .bottom{
+    height: 18%;
+    width: 100%;
+}
+
+
+.container .middle .education{
+    height: 100%;
+    width: 50.5%;
+    position: relative;
+    float: left;
+    /* background-color: #181818; */
+}
+
+.container .middle .experience{
+    height: 100%;
+    /* background-color: #181818; */
+    width: 49.5%;
+    position: relative;
+    float: right;
+}
+
+.container .bottom .languages{
+    height: 100%;
+    width: 50.5%;
+    position: relative;
+    float: left;
+    /* background-color: #181818; */
+}
+
+.container .bottom .skills{
+    height: 100%;
+    width: 49.5%;
+    position: relative;
+    float: right;
+    /* background-color:#181818; */
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.lower_section_image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.upper_section_image{
+    height: 330px;
+    border-radius: 40%;
+}
+
+.container .middle .education .education_foto{
+    height: 25%;
+    margin-left: 48.7%;
+    padding-left: 8px;
+    background-color: #363636;
+    border-top-left-radius: 10px;
+}
+
+.container .middle .education .education_text{
+    height: 100%;
+    background-color:#363636;
+    width: 50%;
+    margin-left: 48.7%;
+    padding-left: 8px;
+
+}
+
+.container .middle .education .education_text:hover{
+    height: 100%;
+    color: silver;
+    background-color:#953E72;
+    width: 50%;
+    margin-left: 48.7%;
+    padding-left: 8px;
+    border-radius: 10px;
+}
+
+.container .middle .experience .experience_foto{
+    height: 25%;
+    padding-left: 0%;
+    width: 50%;
+    background-color:#363636;
+    border-top-right-radius: 10px;
+}
+
+.container .middle .experience .experience_text{
+    height: 75%;
+    padding-left: 0%;
+    width: 50%;
+    background-color:#363636;
+}
+
+.container .middle .experience .experience_text:hover{
+    height: 75%;
+    padding-left: 0%;
+    width: 50%;
+    color: silver;
+    background-color:#953E72;
+    border-radius: 10px;
+}
+
+.container .bottom .skills .skills_foto{
+    height: 25%;
+    padding-left: 0%;
+    width: 50%;
+    background-color:#363636;
+}
+
+.container .bottom .skills .skills_text{
+    height: 75%;
+    padding-left: 0%;  
+    width: 50%; 
+    border-bottom-right-radius: 10px;
+    background-color:#363636;
+
+}
+
+.container .bottom .skills .skills_text:hover{
+    height: 75%;
+    padding-left: 0%;  
+    width: 50%; 
+    border-radius: 10px;
+    color: silver;
+    background-color:#953E72;
+
+}
+
+.container .bottom .languages .language_foto{
+    height: 25%;
+    margin-left: 48.7%;
+    padding-left: 8px;
+    background-color:#363636;
+}
+
+.container .bottom .languages .language_text{
+    padding-left: 50%;   
+    background-color: #363636;
+    height: 75%;
+    margin-left: 48.7%;
+    padding-left: 8px;
+    border-bottom-left-radius: 10px;
+}
+
+.container .bottom .languages .language_text:hover{
+    padding-left: 50%;   
+    background-color: #953E72;
+    height: 75%;
+    margin-left: 48.7%;
+    padding-left: 8px;
+    border-radius: 10px;
+    color: silver;
+}
+
+button {
+    border-radius: 10px;
+    border: none;
+    width: 120px;
+    height: 25px;
+    font-size: smaller;
+    background-color: #EA5181;
+    
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+}
+
+p{
+    color: #C9D2D9;
+}
+
+.drop {
+    background-color: #C9D2D9;
+    color:black;
+    padding: 0px;
+    font-size: 16px;
+    border: none;
+  }
+
+  .drop_down {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #C9D2D9;
+    min-width: 125px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: #953E72;
+    display: block;
+  }
+
+.dropdown-content a:hover {
+    background-color:#953E72;
+    border-radius: 10px;
+}
+.drop_down:hover .dropdown-content {
+    display: block;
+    border-radius: 10px;
+}
+.drop_down:hover .dropbtn {
+    background-color: #C9D2D9;
+}
+
+footer{
+    background-color: #953E72;
+    color: white;
+    height: 30px;
+    padding-top: 7px;
+    padding-left: 25%;
+}
+
+.footer{
+    padding-top: 23.5px
+}
+
+.search {
+    padding-top: 0px;
+    width: 100%;
+    height: 10%;
+    border-radius: 10px;
+
+}
+
+.search input{
+    width: 98%;
+    height:25px;
+    border-radius: 10px;
+    border: none;
+}
+
+.social_media{
+    padding-top: 15px;
+    width: 80%;
+    display: flex;
+}
+
+.social_media .social{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.facebook, .google, .linkedIn, .gmail, .instagram {
+    margin-left: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover{
+    color: #C9D2D9;
+}
+
+.form-control {
+    font-family: "FontAwesome";
+  }

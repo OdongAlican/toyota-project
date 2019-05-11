@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <!-- The General form containing all the labels and the inputs for various HTML elements -->
+
+    <form id="register_form" onsubmit="validation(event)">
+    <div class="container">
+            <div class="center" style="width:50%; padding-left: 30%;padding-top: 40px">
+                <h1>Registration Form</h1>
+
+                <!-- Table containing  the various HTML labels and their respective inputs-->
+
+           <table>
+
+               <!-- Table row containing the user ID label, its input field and their respective inline styling -->
+
+               <tr style="height: 35px;">
+                   <td style="text-align: right">
+                    <label id="user_id" min="5" max="7">
+                        User ID:
+                    </label></td>
+                   <td style="padding-left: 10px" >
+                       <input type="text" style="width: 200px "id="one">
+                   </td>
+                   <td>
+                       <span id="id_error"></span>
+                   </td>
+               </tr>
+
+               <!-- Table row containing the Password label, its input field and their respective inline styling -->
+
+               <tr style="height: 35px;">
+                <td style="text-align: right">
+                    <label min="5" max="7">
+                        Password:
+                    </label></td>
+                <td style="padding-left: 10px" >
+                    <input type="text" style="width: 200px" id="two">
+                </td>
+                <td>
+                    <span id="password_error"></span>
+                </td>
+            </tr>
+
+            <!-- Table row containing the Name label, its input field and their respective inline styling -->
+
+            <tr style="height: 35px;">
+                <td style="text-align: right">
+                    <label id="name" min="5" max="7">
+                        Name:
+                    </label></td>
+                <td style="padding-left: 10px">
+                    <input type="text" style="width: 200px" id="three">
+                </td>
+                <td>
+                    <span id="name_error"></span>
+                </td>
+            </tr>
+
+            <!-- Table row containing the Address label, its input field and their respective inline styling -->
+
+            <tr style="height: 35px;">
+                <td style="text-align: right">
+                    <label min="5" max="7">
+                    Address:
+                    </label></td>
+                <td style="padding-left: 10px">
+                    <input type="text" style="width: 200px" id="four">
+                </td>
+                <td>
+                    <span id="address_error"></span>
+                </td>
+            </tr>
+
+            <!-- Table row containing the Country label, its country options and their respective inline styling -->
+
+            <tr style="height: 35px;">
+                <td style="text-align: right">
+                    <label id="">
+                        Country:
+                    </label>
+                </td>
+                <td style="padding-left: 10px">
+                    <select name="conutry" id="country">
+                        <option value="">(Please Select Country)</option>
+                        <option value="Kenya">Kenya</option>
+                        <option value="Uganda">Uganda</option>
+                        <option value="Tanzania">Tanzania</option>
+                    </select>
+                </td>
+                <td>
+                    <span id="country_error"></span>
+                </td>
+            </tr>
+
+            <!-- Table row containing the Zip Code label, its input field and their respective inline styling -->
+
+            <tr style="height: 35px;">
+                <td style="text-align: right">
+                    <label id="zip" min="5" max="7">
+                    Zip Code:
+                    </label></td>
+                <td style="padding-left: 10px">
+                    <input type="text" style="width: 200px" id="five">
+                </td>
+                <td>
+                    <span id="zip_error"></span>
+                </td>
+            </tr>
+
+            <!-- Table row containing the Email label, its input field and their respective inline styling -->
+
+            <tr style="height: 35px;">
+                <td style="text-align: right">
+                    <label id="address" min="5" max="7">
+                    Email:
+                    </label></td>
+                <td style="padding-left: 10px;">
+                    <input type="email" style="width: 200px" id="six">
+                </td>
+                <td>
+                    <span id="email_error"></span>
+                </td>
+            </tr>
+
+            <!-- Table row containing the Gender label, the options of selecting between male or female and their respective inline styling -->
+
+            <tr style="height: 35px;">
+                <td style="text-align: right">Sex:</td>
+                <td style="padding-left: 10px">
+                    <input type="radio" name="gender" id="sex">Male
+                    <input type="radio" name="gender" id="sex">Female
+                </td>
+                <td >
+                    <label for="">
+                        <span id="required_sex"></span>
+                    </label>
+                </td>
+                <td></td>
+            </tr>
+
+            <!-- Table row containing the Language label, the option of selection either English or Non English or both and their respective inline styling -->
+
+            <tr style="height: 35px;">
+                    <td style="text-align: right">Language:</td>
+                    <td style="padding-left: 10px">
+                        <input type="checkbox" name="language1" id="language">English
+                        <input type="checkbox" name="language2" id="language_non">Non English
+                    </td>
+                    <td style="padding-right: 40px">
+                        <label>
+                            <span id="ling"></span>
+                        </label>
+                    </td>
+                    <td></td>
+                </tr>
+
+            <!-- Table row containing the About label, its input field and their respective inline styling -->
+               
+                <tr style="height: 35px;">
+                    <td style="text-align: right">About:</td>
+                    <td style="padding-left: 10px" rowspan="8" colspan="3">
+                        <input type="text" style="height: 150px;width: 350px">
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+           </table>
+        </div>
+        <div style="padding-left: 47%; padding-top: 10px">
+            <input type="submit" value="Submit" style="width: 80px; height: 30px; font-size:large" >
+        </div>
+    </div>
+</form>
+    <script>
+
+    // A javascript function to check for correct input values in the Registration Form
+    
+    function validation(event){
+
+    //Assigning Javascript variables to various HTML elements by using their ids;
+    
+    var user_id = document.getElementById("one").value;
+    var password_val = document.getElementById("two").value;
+    var name= document.getElementById("three").value;
+    var address = document.getElementById("four").value
+    var zip_code = document.getElementById("five").value;
+    var email = document.getElementById("six").value;
+    var country = document.getElementById("country");
+    var Sex =document.getElementById("sex");
+    var language = document.getElementById("language").value;
+    var language_non = document.getElementById("language_non").value;
+
+
+    // Checking whether the user has entered the correct value for the id input and also determining the length of the input(must be between 5 and 12).
+    
+    if((user_id=="") || !(user_id.length <= 12 && user_id.length >= 5)){
+       document.getElementById("id_error").innerHTML="Required and the value btn 5 and 12";
+
+    }
+    else{
+        document.getElementById("id_error").innerHTML="";
+    }
+
+    // Checking whether the user has entered the correct values for the password input and also checking for the length of the input(must be between 7 and 12 )
+    
+    if((password_val=="") || !(password_val.length <=12 && password_val.length >=7)){
+        document.getElementById("password_error").innerHTML="Required and the value btn 7 and 12";
+    }
+    else{
+        document.getElementById("password_error").innerHTML="";
+    }
+
+    //Checking whether the user has entered the correct values for the name input (input must be alphabet)
+    
+    if(!isNaN(name) || (name =="")){
+        document.getElementById("name_error").innerHTML="Required and alphabets only";
+    }
+    else{
+        document.getElementById("name_error").innerHTML="";
+    }
+
+    //Checking whether the user has entered the correct values for the zip code input (input must be number)
+    
+    if((zip_code=="") || (isNaN(zip_code))){
+        document.getElementById("zip_error").innerHTML="Required and must be numeric";
+    }
+    else{
+        document.getElementById("zip_error").innerHTML="";
+    }
+
+    //Checking whether the user has entered the correct values for the address input    
+    
+    if((address=="") || !(address.length <= 10 && address.length >=5)){
+        document.getElementById("address_error").innerHTML="Required and the value btn 5 and 12";
+    }
+    else{
+        document.getElementById("address_error").innerHTML="";
+    }
+
+    // Checking whether the user has entered the correct values for the email input (must include @ sign)
+    if((email=="")){
+        document.getElementById("email_error").innerHTML="Required and must be a valid Email";
+    }
+    else{
+        document.getElementById("email_error").innerHTML="";
+    }
+
+
+    //Checking whether the user has selected a country from the various country options
+    if(country.selectedIndex == ""){
+          
+          country_error.innerHTML = "Required. Must Select a Country";
+
+        }else{
+
+          country_error.innerHTML = "";
+
+        }
+
+    //Checking whether the user has selected either male or female for the Gender input
+    if (!(sex[0].checked || sex[1].checked)) {
+                  document.getElementById("required_sex").innerHTML = "Required";
+                }else{
+                  document.getElementById("required_sex").innerHTML = "";
+                }
+
+     // Checking whether the user has entered the correct values for the Language input
+
+        if (!(language.checked || language_non.checked)) {
+          document.getElementById("ling").innerHTML = "Required";
+        }
+        else{
+          document.getElementById("ling").innerHTML = "";
+        }
+    event.preventDefault();
+   }
+
+    </script>
+</body>
+</html>

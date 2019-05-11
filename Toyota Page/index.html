@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="center">
+            <div class="left">
+                <div class="customer_info">
+                    <fieldset>
+                        <legend>Customer Information</legend>
+                        <div class="one">
+                            <div class="customer_id">
+                                <label>
+                                    Customer ID:
+                                </label>
+                            </div>
+                            <div class="label">
+                                <input type="text" name="id_value" id="customer_id_input">
+                            </div>
+                        </div>
+                        <div class="two">
+                            <div class="name">
+                                <label>
+                                    Name
+                                </label>
+                            </div>
+                            <div class="label">
+                                <input type="text" name="name_value">
+                            </div>
+                        </div>
+                        <div class="three">
+                            <div class="state">
+                                <label>
+                                    State
+                                </label>
+                            </div>
+                            <div class="label">
+                                <input type="text" name="state_input">
+                            </div>
+                            <div class="retail_customer">
+                                <input type="checkbox" name="name_checkbox">Retail Customer
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="part_order">
+                    <fieldset>
+                        <legend>Part Ordered</legend>
+                        <div class="one">
+                            <div class="part_number">
+                                <label>
+                                    Part Number:
+                                </label>
+                            </div>
+                            <div class="label">
+                                <input type="text" name="part_number_value">
+                            </div>
+                        </div>
+                        <div class="two">
+                            <div class="description">
+                                <label>
+                                    Description
+                                </label>
+                            </div>
+                            <div class="label">
+                                <input type="text" name="description_value">
+                            </div>
+                        </div>
+                        <div class="three">
+                            <div class="price_part">
+                                <label>
+                                    Price Per Part
+                                </label>
+                            </div>
+                            <div class="label">
+                                <input type="text" name="price_part_input">
+                            </div>
+                            <div class="quantity">
+                                <label>Quantity:</label>
+                            </div>
+                            <div class="quantity">
+                                <input type="text" name="quantity">
+                            </div>
+                        </div>
+                        <div class="oversie_container">
+                            <input type="checkbox" name="name_checkbox"> Oversize Container?
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="lower">
+                    <div class="computer">
+                        <input type="button" value="Compute">
+                    </div>
+                    <div class="new_order">
+                        <input type="button" value="New Order">
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="shipping">
+                    <fieldset>
+                        <legend>Shipping</legend>
+                        <div class="one">
+                            <input type="radio" name="choice">UPS
+                            <input type="radio" name="choice" class="fedExGround">Fed Ex Ground
+                        </div>
+                        <div class="two">
+                            <input type="radio" name="choice">US Postal Air
+                            <input type="radio" name="choice" class="fedExAir">Fed Ex Air
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="output">
+                    <fieldset>
+                        <legend>Output</legend>
+                        <div class="cost">
+                            <div class="label">
+                                <label>
+                                    Cost:
+                                </label>
+                            </div>
+                            <div class="input_field">
+                                <input type="text" name="cost">
+                            </div>
+                        </div>
+                        <div class="sales">
+                            <div class="label">
+                                <label>
+                                    Sales:
+                                </label>
+                            </div>
+                            <div class="sales_field">
+                                <input type="text" name="sales">
+                            </div>
+                        </div>
+                        <div class="Shipping">
+                            <div class="label">
+                                <label>
+                                    Shipping & Handling:
+                                </label>
+                            </div>
+                            <div class="shipping_field">
+                                <input type="text" name="shipping">
+                            </div>
+                        </div>
+                        <div class="total">
+                            <div class="label">
+                                <label>
+                                    Total:
+                                </label>
+                            </div>
+                            <div class="total_field">
+                                <input type="text" name="tota">
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="exit">
+                    <input type="button" value="Exit">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

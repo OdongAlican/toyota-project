@@ -1,0 +1,295 @@
+body{
+    margin: 0px;
+    padding-top: 0;
+}
+
+.container{
+    height: 590px;
+    width: 1295px;
+    background-color: #ffff;
+    padding-top: 60px;
+}
+
+.container .center{
+    height: 460px;
+    width: 950px;
+    background-color: #FBBFCB;
+    margin-left: 180px;
+    padding-top: 10px;
+    display: flex;
+    /* flex-flow: wrap; */
+}
+
+.container .center .left{
+    height: 450px;
+    width: 580px;
+    background-color: #FBBFCB;
+    margin-left: 10px;
+}
+
+.container .center .right{
+    height: 450px;
+    width: 390px;
+    background-color: #FBBFCB;
+}
+
+.container .center .left .customer_info{
+    height: 180px;
+    width: 525px;
+    background-color: #FFBF82;
+}
+
+.container .center .left .customer_info .one{
+    display: flex;
+    margin-top: 10px
+}
+
+.container .center .left .part_order .one{
+    display: flex;
+    margin-top: 10px
+}
+
+.container .center .left .customer_info .one input{
+    height: 25px;
+    margin-left: 15px;
+}
+
+.container .center .left .customer_info .two input{
+    height: 25px;
+    margin-left: 65px;
+    width: 380px;
+}
+
+
+.container .center .left .customer_info .three .label input{
+    height: 25px;
+    margin-left: 71px;
+    width: 100px;
+}
+
+.container .center .left .customer_info .three .retail_customer input{
+    height: 15px;
+    margin-left: 50px;
+}
+
+.container .center .left .customer_info .two{
+    margin-top: 10px;
+    display: flex;
+}
+
+.container .center .left .customer_info .three{
+    margin-top: 10px;
+    display: flex;
+}
+
+
+.container .center .left .part_order .two{
+    margin-top: 10px;
+    display: flex;
+}
+
+.container .center .left .part_order .three{
+    margin-top: 10px;
+    display: flex;
+}
+
+.container .center .left .customer_info fieldset{
+    height: 160px;
+}
+
+.container .center .right .shipping fieldset{
+    height: 160px;
+}
+
+.container .center .right .output fieldset{
+    height: 170px;
+}
+
+.container .center .left .part_order{
+    margin-top: 10px;
+    height: 190px;
+    width: 524px;
+    background-color: #FFBF82;
+}
+
+.container .center .right .shipping{
+    height: 180px;
+    width: 380px;
+    background-color: #FFBF82;;
+    margin-right: 10px;
+}
+
+.container .center .right .output{
+    margin-top: 10px;
+    height: 190px;
+    width: 380px;
+    margin-right: 10px;
+    background-color: #FFBF82;
+}
+
+
+.container .center .left .part_order .one input{
+    height: 25px;
+    width: 380px;
+    margin-left: 15px;
+}
+
+.container .center .left .part_order .two input{
+    height: 25px;
+    margin-left: 25px;
+    width: 380px;
+}
+
+
+.container .center .left .part_order .three .price_part{
+    height: 25px;
+    width: 100px;
+}
+
+.container .center .left .part_order .three .label input{
+    height: 25px;
+    width: 190px;
+}
+
+.container .center .left .part_order .three .quantity{
+    margin-left: 83px;
+    margin-right: -80px;
+}
+
+.container .center .left .part_order .three .quantity input{
+    height: 25px;
+    width: 40px;
+}
+
+.oversie_container {
+    margin-left: 96px;
+    margin-top: 10px;
+}
+
+.lower{
+    display: flex;
+    margin-top: 10px;
+}
+
+.lower .computer input{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #FFBF82;
+    border: none;
+    border: 1px solid white;
+
+}
+
+.lower .computer input:hover{
+    color: white
+}
+
+.lower .new_order input{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FFBF82;
+    margin-left: 10px;
+    border: 1px solid white;
+}
+
+.lower .new_order input:hover{
+    color: white;
+}
+
+
+.right .exit input{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 230px;
+    background-color: #FFBF82;
+    border: 1px solid white;
+
+}
+
+
+.right .exit input:hover{
+    color: white;
+}
+
+
+.container .center .right .shipping .fedExGround{
+    margin-left: 110px;
+}
+
+.container .center .right .shipping .fedExAir{
+    margin-left: 49.5px;
+}
+
+.container .center .right .shipping .one{
+    margin-top: 10px;
+}
+
+.container .center .right .shipping .two{
+    margin-top: 40px;
+}
+
+.output .cost{
+    margin-top: 10px;
+    display: flex;
+}
+
+.output .cost .input_field{
+    margin-left: 130px;
+}
+
+.output .cost .input_field input{
+    height: 25px;
+}
+
+.output .sales{
+    margin-top: 10px;
+    display: flex;
+}
+
+.output .sales .sales_field{
+    margin-left: 126px;
+}
+
+.output .sales .sales_field input{
+    height: 25px;
+}
+
+.output .Shipping{
+    display: flex;
+    margin-top: 10px;
+}
+
+.output .Shipping .label{
+    width: 152px;
+}
+
+.output .Shipping .shipping_field{
+    margin-left: 12px;
+}
+
+.output .Shipping .shipping_field input{
+    height: 25px;
+}
+
+.output .total{
+    margin-top: 5px;
+    display: flex;
+}
+
+.output .total .total_field{
+    margin-left: 127px;
+}
+
+.output .total .total_field input{
+    height: 25px;
+}
+
+fieldset {
+    border: 1px solid white;
+}
